@@ -10,4 +10,5 @@ Leo Shestakov, Lucio Yang
 - addNull() : Add null values
 - rmNull() : Remove null values
 - replicate() : Replicate a list
-## 'UserOfList' class
+## *UserOfList* class
+`UserOfList` class creates an instance of a list with specified length
