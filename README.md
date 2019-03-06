@@ -1,6 +1,6 @@
 # List_inArraySlots
 ## Group Members
-Leo Shestakov, Lucio Yang :smile:
+Leo Shestakov :confused:, Lucio Yang :smile:
 ## Fields, Constructor(s), and Methods
 - `add()` : Add elements to specific positions
 - `rm()` : Remove elements from specific positions
