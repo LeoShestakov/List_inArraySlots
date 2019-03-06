@@ -10,6 +10,6 @@ Leo Shestakov, Lucio Yang
 - `addNull(int index)` : Add null value at specified index
 - `rmNull(int index)` : Remove null value at specified index
 - `replicate(List target)` : Replicate a list
-- Constructor `List(int length)` : Construct an empty list with specified length
+- Constructor `List(int length)` : Construct an empty List with specified length
 ## *UserOfList* class
 `UserOfList` class creates an instance of a List with specified length using the constructor above
