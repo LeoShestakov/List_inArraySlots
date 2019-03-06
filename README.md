@@ -10,5 +10,6 @@ Leo Shestakov, Lucio Yang
 - `addNull()` : Add null values
 - `rmNull()` : Remove null values
 - `replicate()` : Replicate a list
+- Constructor `List_inArraySlots(int length)` : Constructs an empty list with specified length
 ## *UserOfList* class
 `UserOfList` class creates an instance of a list with specified length
