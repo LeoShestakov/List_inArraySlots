@@ -6,10 +6,10 @@ Leo Shestakov, Lucio Yang
 - `rmE(int index)` : Remove elements from specific positions
 - `access(int index)` : Access items from specific positions
 - `length()` : Ascertain the length of the list
-- `swap(int index1, int index 2)` : Swap elements
-- `addNull()` : Add null values
-- `rmNull()` : Remove null values
-- `replicate()` : Replicate a list
-- Constructor `List_inArraySlots(int length)` : Constructs an empty list with specified length
+- `swap(int indexA, int indexB)` : Swap elements at 2 indexes
+- `addNull(int index)` : Add null value at specified index
+- `rmNull(int index)` : Remove null value at specified index
+- `replicate(List target)` : Replicate a list
+- Constructor `List(int length)` : Construct an empty list with specified length
 ## *UserOfList* class
 `UserOfList` class creates an instance of a list with specified length
