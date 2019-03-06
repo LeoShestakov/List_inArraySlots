@@ -5,63 +5,59 @@
 
 public class List_inArraySlots {
 
-    // declare fields here
-    private int[] array;
-    private int filledElements;
-    
-    /**
-      Construct an empty list with a small initial capacity.
-     */
-    public List_inArraySlots() {
-	array = new int[8];
-    }
+  // declare fields here
+  private int[] array;
+  private int filledElements;
 
+  /**
+    Construct an empty list with a small initial capacity.
+  */
+  public List_inArraySlots() {
+    array = new int[8];
+  }
 
-    /** 
-      @return the number of elements in this list
-     */
-    public int size() {
-	return filledElements;
-    }
+  /**
+    @return the number of elements in this list
+  */
+  public int size() {
+    return filledElements;
+  }
 
+  /**
+    @return a string representation of this list,
+    in [a,b,c,] format
+  */
+  public String toString() {
+    String ans = new String();
+    ans += "[";
+    for (int element : array)
+    ans += element + ",";
+    ans += "]";
+    return ans;
+  }
 
-     /** 
-       @return a string representation of this list,
-       in [a,b,c,] format
-      */ 
-    public String toString() {
-	String ans = new String();
-	ans += "[";
-	for (int element : array)
-	    ans += element + ",";
-	ans += "]";
-	return ans;
-    }
+  /**
+    Appends @value to the end of this list.
 
-    
-    /** 
-      Appends @value to the end of this list.
-      
-      @return true, in keeping with conventions yet to be discussed
-     */
-     public boolean add( int value) {
-	 array[filledElements] = value;
-	 filledElements += 1;
-	 return true;
-     }
+    @return true, in keeping with conventions yet to be discussed
+  */
+  public boolean add( int value) {
+    array[filledElements] = value;
+    filledElements += 1;
+    return true;
+  }
 
-
-    /** 
-      Double the capacity of the List_inArraySlots, 
-      preserving existing data
-     */
-     // private void expand() {
-        // System.out.println( "expand... (for debugging)");
-           // /* S.O.P. rules for debugging:
-              // Working methods should be silent. But during 
-              // development, the programmer must verify that 
-              // this method is called when that is appropriate.
-              // So test using the println(), then comment it out.
-              // */
-     // }
+  /**
+    Double the capacity of the List_inArraySlots,
+    preserving existing data
+  */
+  // private void expand() {
+  //   System.out.println( "expand... (for debugging)");
+  //   /* S.O.P. rules for debugging:
+  //      Working methods should be silent. But during
+  //      development, the programmer must verify that
+  //      this method is called when that is appropriate.
+  //      So test using the println(), then comment it out.
+  //   */
+  // }
 }
