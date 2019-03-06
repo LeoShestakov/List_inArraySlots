@@ -2,11 +2,11 @@
 ## Group Members
 Leo Shestakov, Lucio Yang
 ## Fields, Constructor(s), and Methods
-- `addE()` : Add elements to specific positions
-- `rmE()` : Remove elements from specific positions
-- `access()` : Access items from specific positions
+- `addE(int index)` : Add elements to specific positions
+- `rmE(int index)` : Remove elements from specific positions
+- `access(int index)` : Access items from specific positions
 - `length()` : Ascertain the length of the list
-- `swab()` : Swap elements
+- `swap(int index1, int index 2)` : Swap elements
 - `addNull()` : Add null values
 - `rmNull()` : Remove null values
 - `replicate()` : Replicate a list
