@@ -12,4 +12,4 @@ Leo Shestakov, Lucio Yang
 - `replicate(List target)` : Replicate a list
 - Constructor `List(int length)` : Construct an empty list with specified length
 ## *UserOfList* class
-`UserOfList` class creates an instance of a list with specified length
+`UserOfList` class creates an instance of a List with specified length using the constructor above
