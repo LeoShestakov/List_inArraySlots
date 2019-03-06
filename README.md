@@ -10,3 +10,4 @@ Leo Shestakov, Lucio Yang
 - addNull() : Add null values
 - rmNull() : Remove null values
 - replicate() : Replicate a list
+## 'UserOfList' class
