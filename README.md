@@ -5,7 +5,7 @@ Leo Shestakov, Lucio Yang
 - `addE(int index)` : Add elements to specific positions
 - `rmE(int index)` : Remove elements from specific positions
 - `access(int index)` : Access items from specific positions
-- `length()` : Ascertain the length of the list
+- Field `length` : Ascertain the length of the list
 - `swap(int indexA, int indexB)` : Swap elements at 2 indexes
 - `addNull(int index)` : Add null value at specified index
 - `rmNull(int index)` : Remove null value at specified index
