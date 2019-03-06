@@ -2,8 +2,8 @@
 ## Group Members
 Leo Shestakov :confused:, Lucio Yang :smile:
 ## Fields, Constructor(s), and Methods
-- `add()` : Add elements to specific positions
-- `rm()` : Remove elements from specific positions
+- `addE()` : Add elements to specific positions
+- `rmE()` : Remove elements from specific positions
 - `access()` : Access items from specific positions
 - `length()` : Ascertain the length of the list
 - `swab()` : Swap elements
