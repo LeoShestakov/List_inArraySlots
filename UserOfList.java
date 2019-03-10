@@ -33,5 +33,63 @@ public class UserOfList {
     list.add( -i);
     System.out.println("after second expansion: " + list.size() + " elements:");
     System.out.println( list);
+	
+	// --------- end of "code that worked in v0" ---------
+
+    // test accessor
+    System.out.println( "sample elements from list:");
+    for(int elemIndex = 1; elemIndex < list.size(); elemIndex *= 2 ) {
+        System.out.println("element " + elemIndex + ": "
+                           + list.get( elemIndex)
+                           );
+    }
+	
+	// test set
+    setTest(list, 8);
+    setTest(list, 16);
+    System.out.println();
+	
+	// test adding at a specified position
+    addAtTest(list, 0, 29); // beginning of the list
+
+    // end of the list using the new add method
+    addAtTest(list, list.size(), 17);
+
+    addAtTest(list, 2, 19); // middle of a small list
+
+    // force an expansion
+	addAtTest(list, 2, 23);
+	addAtTest(list, 2, 23);
+	addAtTest(list, 2, 23);
+	
+	// test removing an element
+    System.out.println("removing value " + list.remove( 6)
+                       + ", leaving " + list.size() + " elements:");
+    System.out.println( list);
+    System.out.println("expecting:" + System.lineSeparator()
+				       + "[29,0,23,23,23,19, NO -1 HERE! -2,-3...]");
+  }
+  
+  /**
+  Test the set() method, reporting and
+  changing the value at index @modifyAt.
+  */
+  private static void setTest(List_inArraySlots list, int modifyAt) {
+    System.out.println("changed element " + modifyAt + " from "
+					   + list.set( modifyAt, modifyAt + 1000) + " to "
+					   + list.get( modifyAt));
+  }
+	
+  /**
+  Test the 2-argument add( index, value) method.
+  */
+  private static void addAtTest(List_inArraySlots list, int addAt, int value) {
+    list.add( addAt, value);
+	System.out.println("insert " + value
+					   + " at position " + addAt
+					   + ", resulting in "  + list.size() + " elements:"
+					   + System.lineSeparator()
+					   + list
+					   + System.lineSeparator());
   }
 }
